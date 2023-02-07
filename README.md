@@ -1,16 +1,20 @@
-# Vue 3 + TypeScript + Vite
+# Vue3 Practices Game
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project uses the sheep game as a template for project design. This game is divided into 4 optional modes. The global parameters of the game are stored through Pinia, the hierarchical relationship of blocks in the game is calculated with TypeScript, and four additional modes are added to the game. Skills include: withdraw, remove, shuffle, destroy
 
-## Recommended IDE Setup
+## Technology Stack
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Vue3+Typescript+vite+Pinia+Ant-Design-Vue...
 
-## Type Support For `.vue` Imports in TS
+## Appearance of Project 
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+- Start Page
+![image](https://user-images.githubusercontent.com/58674874/217187340-80177605-67a8-4271-8297-1ce4efa20d76.png)
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+- Game Page
+![image](https://user-images.githubusercontent.com/58674874/217187580-1800a799-508c-42a2-8cc6-cfa504bc3ac0.png)
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- Profile Page
+
+![image](https://user-images.githubusercontent.com/58674874/217187723-dec9f043-7fb9-4463-bcd8-8babc6ba6cd7.png)
+
